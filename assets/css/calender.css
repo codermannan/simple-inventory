@@ -1,0 +1,12 @@
+/* --- 4.x DASHBOARD ICONS MENU --- */
+.cl_wday {
+	text-align: center;
+	font-weight:bold;
+}
+.cl_equal { width: 14%; }
+.day { width: 14%; }
+.day_num { width: 100%; text-align:left; cursor:pointer; } 
+
+.content { width: 100%;text-align:left; font-weight:bold; }
+
+.highlight { color: #0088CC; font-weight:bold; }

@@ -1,0 +1,69 @@
+
+/* default theme */
+@import url("bootstrap-cosmo.css");
+
+/* please dont change these */
+@import url("datatables.css");
+@import url("datatables.css");
+@import url("rwd-table.css");
+@import url("chosen.css");
+@import url("chosen-bootstrap.css");
+@import url("bootstrap-responsive.css");
+@import url("sma.css");
+
+
+input.tran, input.tran:hover, input.tran:focus { border: 0; width:100% !important; padding:0; margin:0; background: transparent; box-shadow: none; } 
+input.tran2, input.tran2:hover, input.tran2:focus { width:100% !important; margin:0; box-shadow: none; } 
+select.tran, select.tran:hover, select.tran:focus { border: 0; text-align:center; width:100% !important; ; background: transparent; box-shadow: none; } 
+.ui-autocomplete { width:20%; list-style: none; padding-top: 20px; border: 1px solid #000; border-radius: 4px; background:#FFF; box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset; /*z-index:500; */}
+.ui-autocomplete a, .ui-autocomplete li {display: block; color: #000; border-radius: 0; padding: 2px 5px;} 
+.ui-autocomplete a:hover, .ui-autocomplete a:active, .ui-autocomplete li:hover, .ui-autocomplete a:focus, .ui-autocomplete .ui-corner-all:focus { background: #000; color:#FFF; text-decoration: none; }
+.ui-helper-hidden-accessible {padding-left: 10px; }
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default { background: #000; color:#FFF; text-decoration: none; }
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited { color: #555; text-decoration: none; }
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus { background: #000; color:#FFF; text-decoration: none; }
+.ui-state-hover a, .ui-state-hover a:hover { background: #000; color:#FFF; text-decoration: none; }
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active { background: #000; color:#FFF; text-decoration: none; }
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited { background: #000; color:#FFF; text-decoration: none; }
+span.ui-helper-hidden-accessible { display: none; }
+.ui-autocomplete-loading { background:url('<?php echo $this->config->base_url(); ?>assets/img/loading.gif') no-repeat right center }
+#dyTable .chzn-container { width: 100% !important; }
+#dyTable .chzn-container-single .chzn-single { background: transparent; border:0 !important; }
+#dyTable .chzn-container-active .chzn-single { background: #FFF !important; border: 1px solid #bbb !important; }
+
+ul.nav.nav-tabs.fancy.gary { background-color: #0F82F5; border: 1px solid #CCC; }
+ul.nav.nav-tabs.fancy.gary > li > a { margin-top: -1px; }
+ul.nav.nav-tabs.fancy.gary > li:first-child > a { margin-left: -1px; } 
+ul.nav.nav-tabs.fancy { margin-bottom: 0; }
+ul.nav.nav-tabs.fancy.two-tabs > li { text-align: center; width: 50%; }
+ul.nav.nav-tabs.fancy > li > a { border-radius: 0; color: #FFF; font-size: 1em; margin: 0; border: 0; height:20px; overflow:hidden; line-height:22px; text-shadow: none; background-color: #444; }
+ul.nav.nav-tabs.fancy > li > a:hover { border: 0; }
+ul.nav.nav-tabs.fancy > li > a:last-child, ul.nav.nav-tabs.fancy.two-tabs > li:last-child { margin-right: 0; border-radius: 0; }
+#add_options ul.nav.nav-tabs.fancy > li:first-child, #add_options ul.nav.nav-tabs.fancy > li:first-child a, #add_options ul.nav.nav-tabs.fancy > li:first-child a:hover, #add_options ul.nav.nav-tabs.fancy > li > a { border-radius:0; }
+ul.nav.nav-tabs.fancy > li.active > a { background-color: #000; color:#FFF; }
+
+.tooltip.in { opacity: 1; filter: alpha(opacity=100); }
+/*.tooltip.top .tooltip-arrow { border-top-color: #FFF !important; }*/
+.tooltip-inner { font-weight:bold; /*color:#000; background:#FFF; */}
+.table.items th { background-color: #000; color: #FFF; border: 1px solid #333; padding: 8px 0; }
+
+.redactor_box { border: 1px solid #CCC; }
+.redactor_box  .redactor_toolbar { border-radius: 5px 5px 0 0; } 
+.tab-content .redactor_box  .redactor_toolbar { border-radius: 0; } 
+
+.add_options { z-index:5; }
+#drag { float: right; margin-top: -150px; }
+#draggable { cursor:move; text-align:center; color:#FFF; background-color: #FE781E; padding: 8px 0; border:1px solid #FE781E; border-radius: 0; }
+.tab-bg { padding:20px; border:1px solid #000; background-color: #000; }
+
+@media (max-width: 767px) {
+.add_options { display:block; }
+#drag { float: none; margin-top:0; }
+/*.table-label { display: none; }
+.table-controls { margin-left: 0 !important; }*/
+}
+
+
+.navbar-fixed-top { position:static; }
+.main-content { padding-top: 0px; }
+#col_1, #col_2  { margin-top:0; }

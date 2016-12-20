@@ -1,0 +1,18 @@
+
+/* 
+
+* Default theme: bootstrap  rtl
+* Change theme: please comment the line no 9 and uncomment the theme that you want to use, thank you!
+
+*/
+
+@import url("bootstrap-rtl.css");
+
+/* please dont change these */
+@import url("datatables.css");
+@import url("datatables.css");
+@import url("rwd-table.css");
+@import url("chosen.css");
+@import url("chosen-bootstrap.css");
+@import url("bootstrap-responsive-rtl.css");
+@import url("sma.css");
